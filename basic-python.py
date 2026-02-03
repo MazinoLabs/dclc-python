@@ -29,3 +29,13 @@ def even_index(word):
 
 phrase = input("Enter the Phrase")
 even_index(phrase)
+
+
+# Exercise 4: Remove first n characters from a string
+def remove_chars(word, n):
+    return word[n:]
+
+
+word = input("Enter the word")
+num_char = int(input("How many character should be removed"))
+print(remove_chars(word, num_char))
