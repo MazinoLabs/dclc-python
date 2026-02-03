@@ -69,3 +69,12 @@ def count_occurence(phrase, find):
 
 
 print(count_occurence("Emma is good developer. Emma is a writer", "Emma"))
+
+
+# Exercise 8: Print the following pattern
+def num_pyramid(n):
+    for x in range(n+1):
+        print((str(x)+" ")*x)
+
+
+num_pyramid(5)
