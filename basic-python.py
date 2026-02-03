@@ -78,3 +78,16 @@ def num_pyramid(n):
 
 
 num_pyramid(5)
+
+
+# Exercise 9: Check Palindrome Number
+def check_palidrome(num):
+    number = str(num)
+    rev_num = ""
+    for x in range(len(number)-1, -1, -1):
+        rev_num += number[x]
+    return f"Yes. {number} is palindrome number" if number == rev_num else f"No. {number} is not palindrome number"
+
+
+print(check_palidrome(125))
+print(check_palidrome(121))
