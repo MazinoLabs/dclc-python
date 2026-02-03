@@ -144,3 +144,9 @@ for x in range(1, 11):
     for y in range(1, 11):
         print(x*y, end=" ")
     print("\t\t")
+
+
+# Exercise 14: Print a downward half-pyramid pattern of stars
+for x in range(5, -1, -1):
+    print("* "*x)
+
