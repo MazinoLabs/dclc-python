@@ -18,3 +18,14 @@ def summation(num):
 
 user_num = int(input("Enter the Number you want to sum up"))
 summation(user_num)
+
+
+# Exercise 3: Print characters present at an even index number
+def even_index(word):
+    for x in range(len(word)):
+        if x % 2 == 0:
+            print(word[x])
+
+
+phrase = input("Enter the Phrase")
+even_index(phrase)
