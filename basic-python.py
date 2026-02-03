@@ -110,3 +110,15 @@ list2 = [40, 45, 60, 75, 90]
 
 print(merge_lists(list1, list2))
 
+
+# Exercise 11: Get each digit from a number in the reverse order.
+def rev_number(num):
+    number = str(num)
+    rev_num = ""
+    for x in range(len(number)-1, -1, -1):
+        rev_num += number[x] + " "
+    return rev_num
+
+
+print(rev_number(7536))
+print(rev_number(12345))
