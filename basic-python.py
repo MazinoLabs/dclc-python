@@ -51,3 +51,14 @@ def check_if_same(arr):
 print(check_if_same([75, 65, 35, 75, 30]))
 print(check_if_same([45, 5, 33, 14, 45]))
 
+
+# Exercise 6: Display numbers divisible by 5
+def div_by_five_list(arr):
+    for x in arr:
+        if x % 5 == 0:
+            print(x)
+
+
+div_by_five_list([10, 20, 33, 46, 55])
+div_by_five_list([3, 25, 40, 44, 60])
+
