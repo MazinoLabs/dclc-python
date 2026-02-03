@@ -62,3 +62,10 @@ def div_by_five_list(arr):
 div_by_five_list([10, 20, 33, 46, 55])
 div_by_five_list([3, 25, 40, 44, 60])
 
+
+# Exercise 7: Find the number of occurrences of a substring in a string
+def count_occurence(phrase, find):
+    return f"{find} was found {phrase.count(find)} times"
+
+
+print(count_occurence("Emma is good developer. Emma is a writer", "Emma"))
