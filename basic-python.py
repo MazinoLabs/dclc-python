@@ -6,3 +6,15 @@ def sum_or_product(a, b):
 num_1 = int(input("Enter the First Number"))
 num_2 = int(input("Enter the First Number"))
 print(sum_or_product(num_1, num_2))
+
+
+# Exercise 2: Print the Sum of a Current Number and a Previous number
+def summation(num):
+    prev_num = 0
+    for x in range(num):
+        print(f"Current Number{x}Previous Number {prev_num}  Sum:{x+prev_num}")
+        prev_num = x
+
+
+user_num = int(input("Enter the Number you want to sum up"))
+summation(user_num)
