@@ -122,3 +122,18 @@ def rev_number(num):
 
 print(rev_number(7536))
 print(rev_number(12345))
+
+
+# Exercise 12: Calculate income tax
+def tax_calculation(income):
+    tax = 0
+    if income > 20000:
+        tax = 10000*0.1 + (income-20000)*0.2
+    elif 10000 < income <= 20000:
+        tax = (income-10000)*0.1
+    else:
+        tax = 0
+    return tax
+
+
+print(tax_calculation(15000))
