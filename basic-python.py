@@ -39,3 +39,15 @@ def remove_chars(word, n):
 word = input("Enter the word")
 num_char = int(input("How many character should be removed"))
 print(remove_chars(word, num_char))
+
+
+#Exercise 5: Check if the first and last numbers of a list are the same
+def check_if_same(arr):
+    first = arr[0]
+    last = arr[len(arr)-1]
+    return True if first == last else False
+
+
+print(check_if_same([75, 65, 35, 75, 30]))
+print(check_if_same([45, 5, 33, 14, 45]))
+
