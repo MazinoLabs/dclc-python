@@ -91,3 +91,22 @@ def check_palidrome(num):
 
 print(check_palidrome(125))
 print(check_palidrome(121))
+
+
+#Exercise 10: Merge two lists using the following condition
+def merge_lists(arr1, arr2):
+    new_arr = []
+    for x in arr1:
+        if x % 2 != 0:
+            new_arr.append(x)
+    for x in arr2:
+        if x % 2 == 0:
+            new_arr.append(x)
+    return new_arr
+
+
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
+
+print(merge_lists(list1, list2))
+
