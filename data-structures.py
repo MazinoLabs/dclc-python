@@ -10,3 +10,4 @@ def odd_even_list(list1, list2):
             new_list.append(num)
 
     return new_list
+
