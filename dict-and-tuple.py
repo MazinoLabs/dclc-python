@@ -134,3 +134,92 @@ for x in employees:
     new_dict[x] = defaults
 
 print(new_dict)
+
+
+
+#Tuple Exercises
+#Exercise 1
+my_tuple = (1, 2, 3, 4, 5)
+print(f"My tuple: {my_tuple}")
+
+print(f" The third element of my_tuple:{my_tuple[2]}")
+print(f"The length of my_tuple: {len(my_tuple)}")
+
+
+#Exercise 2
+original_tuple = ('a', 'b')
+
+new_tuple = original_tuple*3
+print(new_tuple)
+
+
+
+#Exercise 3
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+print(numbers[3:7])
+
+
+#Exercise 4
+tuple1 = (10, 20, 30, 40, 50)
+arr = []
+for x in range(len(tuple1)-1, -1, -1):
+    arr.append(tuple1[x])
+new_tuple = tuple(arr)
+print(new_tuple)
+
+
+
+#Exercise 5
+tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
+
+print(tuple1[1][1])
+
+
+
+#Exercise 6
+new_tuple = (50,)
+print(new_tuple)
+
+
+
+#Exercise 7
+tuple1 = (10, 20, 30, 40)
+
+a, b, c, d = tuple1
+
+print(a)
+print(b)
+print(c)
+print(d)
+
+
+
+#Exercise 8
+tuple1 = (11, 22)
+tuple2 = (99, 88)
+print(f"tuple1 = {tuple1}")
+print(f"tuple2 = {tuple2}\n")
+arr = tuple2
+tuple2 = tuple1
+tuple1 = arr
+
+print(f"tuple1 = {tuple1}")
+print(f"tuple2 = {tuple2}")
+
+
+
+#Exercise 9
+tuple1 = (11, 22, 33, 44, 55, 66)
+
+tuple2 = tuple(tuple1[3:5])
+
+print(tuple2)
+
+
+
+#Exercise 10
+my_list = [10, 20, 30]
+my_tuple = tuple(my_list)
+print(my_tuple)
+
